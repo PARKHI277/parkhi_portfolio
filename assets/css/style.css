@@ -325,9 +325,15 @@ img {
 .skills__html {
   width: 90%;
 }
+.skills_solve {
+  width: 70%;
+}
 
 .skills__css {
   width: 85%;
+}
+.skills__api {
+  width: 95%;
 }
 
 .skills__js {
@@ -339,7 +345,7 @@ img {
 }
 
 .skills__img {
-  border-radius: 0.5rem;
+  border-radius: 3rem;
 }
 
 /* ===== WORK =====*/
