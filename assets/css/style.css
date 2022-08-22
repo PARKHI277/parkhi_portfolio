@@ -430,7 +430,7 @@ img {
     margin-left: 65%;
   }
 }
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 100px) {
   .work__img {
     margin-left: 65%;
   }
@@ -476,6 +476,9 @@ img {
   .contact__container {
     justify-items: center;
   }
+  .work__img {
+    margin-left: 65%;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -518,6 +521,9 @@ img {
   }
   .contact__container {
     justify-items: center;
+  }
+  .work__img {
+    margin-left: 65%;
   }
 }
 
