@@ -427,7 +427,7 @@ img {
     width: 200px;
   }
 }
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 330px) {
   .work__img {
     margin-left: 65%;
   }
