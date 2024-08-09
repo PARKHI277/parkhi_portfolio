@@ -44,6 +44,15 @@ function scrollActive() {
 }
 window.addEventListener("scroll", scrollActive);
 
+function toggleCategory(categoryId) {
+  const content = document.getElementById(categoryId);
+  if (content.style.display === "block") {
+    content.style.display = "none";
+  } else {
+    content.style.display = "block";
+  }
+}
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",

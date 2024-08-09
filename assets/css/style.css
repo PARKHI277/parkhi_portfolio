@@ -354,6 +354,61 @@ img {
   border-radius: 3rem;
 }
 
+/* ======== education ==== /*
+/* Section title */
+/* Section title */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Container for sections */
+
+/* Styles for experience section */
+.exp__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Work item styles */
+.work__item {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* Company title */
+.work__company-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Duration text */
+.work__duration {
+  font-size: 0.9rem;
+  color: gray;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Job title */
+.work__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Description list */
+.work__description {
+  list-style-type: disc;
+  margin: 0 auto;
+  max-width: 600px; /* Optional: Adjust to fit your design */
+  text-align: left;
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
