@@ -192,13 +192,19 @@ img {
 
 /*===== HOME =====*/
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
 }
 
 .home__data {
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home__title {
